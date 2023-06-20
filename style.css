@@ -1,0 +1,76 @@
+.body{
+    font-family: sans-serif;
+}
+.calculator{
+ /* border: 2px solid red;  */
+ width: 40vw;
+ height: 66vh;
+ background-color: rgb(43 41 41 / 38%);
+ padding: 1rem;
+ border-radius: 0.7rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ left: 50%;
+ transform: translate(-50%,20%);
+ position: relative;
+}
+
+.heading{
+/* border: 2px solid green; */
+padding: 1rem;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+background-color: black;
+}
+
+.heading h1{
+    margin: 0;
+    color: white;
+}
+
+#screen{
+/* border: 2px solid pink; */
+height:5rem;
+background-color: white;
+flex-wrap: wrap;
+word-break: break-all;
+display: flex;
+justify-content: flex-start;
+flex-direction: row;
+align-items: flex-start;
+font-size: 1.4rem;
+overflow: hidden;
+}
+
+.all-keys{
+ /* border: 2px solid blue */
+}
+
+.button-row{
+/* border: 2px solid brown; */
+display: flex;
+flex-wrap: nowrap;
+}
+
+.button{
+    /* border: 2px solid violet; */
+    height: 3rem;
+    width: 8.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1rem;
+    font-weight: bold;
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+.zero{
+    width: 17.1rem;
+}
+
+.u-color{
+    background-color: red;
+}
